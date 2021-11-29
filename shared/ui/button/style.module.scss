@@ -1,0 +1,18 @@
+@import "shared/ui/styles/colors.module";
+
+.button {
+  background-color: $color_black;
+  color: $color_white;
+  width: 72px;
+  height: 40px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.button_invert {
+  background-color: $color_white;
+  color: $color_black;
+  border: 1px solid $color_lightgray;
+}
